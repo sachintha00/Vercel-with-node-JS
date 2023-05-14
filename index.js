@@ -10,7 +10,7 @@ app.get("/test", function (req, res) {
   res.send("test");
 });
 
-const port = process.env.PORT || 9001;
+const port = process.env.PORT;
 
 app.listen(port, function () {
   console.log(`Example app listening on port ${port}`);
